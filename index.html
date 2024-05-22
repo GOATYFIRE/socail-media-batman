@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>look for your social</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h2 class="log">
+                NamTaB
+            </h2>
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Search for creators, inspirations, and projects">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Create</label>
+                <div class="profile-photo">
+                    <img src="red hood pro.jfif" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="red hood pro.jfif">
+                    </div>
+                    <div class="handle">
+                        <h4> Lee Justice</h4>
+                        <p class="text-muted"></p>
+                        @dayi
+                    </div>
+                </a>
+
+                <!--------------------------------sidebar-->
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><ion-icon name="home-outline"></ion-icon></span> <h3>Home</h3>
+                    </a>
+                    <a class="menu-item" id="notifications">
+                        <span><ion-icon name="home-outline"></ion-icon></span> <h3>Explore</h3>
+
+                        <a class="menu-item">
+                            <span><ion-icon name="alert-outline"><small class="notifications-count"></small></ion-icon></span> <h3>Notifications</h3>
+                        <!---------------------------Notificaton pop up-->
+                        <div class="notifications-popup">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="night wing notif.jfif">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Big boy 74</b> Wants to be your friend
+                                    <small class="text-muted">1 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="tim dumb.jfif">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Stupid Bird</b> Followed you 
+                                    <small class="text-muted">1 HOUR AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="Damen wayne.jfif">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Cocky Killer</b> ACCEPTED YOUR FRIEND REQUEST
+                                    <small class="text-muted">30 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="batman.jpeg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Bad Ass 69</b> Wants to be your friend
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of popup -->
+                    </a>
+                    
+                    
+
+                        <a class="menu-item" id="messages-notifications">
+                            <span><ion-icon name="chatbox-outline"></ion-icon> <small class="Notification-count"></small></span> <h3>Message</h3>
+
+                            <a class="menu-item">
+                            <span><ion-icon name="bookmarks-outline"></ion-icon></span> <h3>Bookmarks</h3>
+
+                            <a class="menu-item">
+                                <span><ion-icon name="bar-chart-outline"></ion-icon></span> <h3>Analytics</h3>
+
+                                <a class="menu-item">
+                                <span><ion-icon name="pizza-outline"></ion-icon></span> <h3>Theme</h3>
+
+                                <a class="menu-item">
+                                <span><ion-icon name="cog-outline"></ion-icon></span> <h3>Settings</h3>
+
+                            <!-- ---------end of sidebar -->
+                                
+                </div>
+                <label class="btn btn-primary" for="create-post" >Create Post</label>
+
+            </div>
+
+            <!------------------------------end of left-->
+
+            <!-- left  ^-->
+
+
+            <div class="middle">
+                <!-----------------stories------------------>
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="joker.jpg">
+                        </div>
+                        <p class="name">Killer Joker</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="scarcrow.jfif">
+                        </div>
+                        <p class="name">Best Villian</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="wadle wadle.jfif">
+                        </div>
+                        <p class="name">Wadle Wadle</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="not that good.jfif">
+                        </div>
+                        <p class="name">Puzzle Bitch</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="bane.jfif">
+                        </div>
+                        <p class="name">BANEEEE </p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="mr f.jpg">
+                        </div>
+                        <p class="name">Freezey</p>
+                    </div>
+                </div>
+                <!-- -----------------end of stories ----------------------- -->
+                <form class="create-post">
+                    <div class="profile-photo">
+                        <img src="red hood pro.jfif">
+                    </div>
+                    <input type="text" placeholder="What's on your mind, Lee">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+
+
+                <!-- <------------------------------Feeds-- -->
+                <div class="feeds">
+                    <!-- ----------------------------------feed 1 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="2face.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>2faced</h3>
+                                    <small>Arkham, 13 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="feed 2.jfif">
+                        </div>
+
+                        <div class="action-button">
+                            <div class="interaction-buttons">
+                                <span><ion-icon name="thumbs-up-outline"></ion-icon></span>
+                                <span><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
+                                <span><ion-icon name="share-social-outline"></ion-icon></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><ion-icon name="bookmark-outline"></ion-icon></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="laughing bat.jfif" alt=""></span>
+                            <span><img src="bruce.jfif" alt=""></span>
+                            <span><img src="clay.webp" alt=""></span>
+                            <p>liked by <b>Laughing</b> and <b>9000+ others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span class="harsh-tag">#Arkham</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 277 comments</div>
+                    </div>
+                    <!-- -----------------------------end of feed -->
+                </div>
+
+                 <!-- ----------------------------------feed 2 -->
+                 <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-photo">
+                                <img src="laughing bat.jfif">
+                            </div>
+                            <div class="ingo">
+                                <h3>Laughing</h3>
+                                <small>Arkham, 13 MINUTES AGO</small>
+                            </div>
+                        </div>
+                        <span class="edit">
+                            <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                        </span>
+                    </div>
+
+                    <div class="photo">
+                        <img src="damn.jpg">
+                    </div>
+
+                    <div class="action-button">
+                        <div class="interaction-buttons">
+                            <span><ion-icon name="thumbs-up-outline"></ion-icon></span>
+                            <span><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
+                            <span><ion-icon name="share-social-outline"></ion-icon></span>
+                        </div>
+                        <div class="bookmark">
+                            <span><ion-icon name="bookmark-outline"></ion-icon></span>
+                        </div>
+                    </div>
+                    <div class="liked-by">
+                        <span><img src="laughing bat.jfif" alt=""></span>
+                        <span><img src="bruce.jfif" alt=""></span>
+                        <span><img src="clay.webp" alt=""></span>
+                        <p>liked by <b>two-face</b> and <b>10000+ others</b></p>
+                    </div>
+
+                    <div class="caption">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span class="harsh-tag">#Arkham</span></p>
+                    </div>
+                    <div class="comments text-muted">View all 277 comments</div>
+                </div>
+                <!-- -----------------------------end of feed -->
+                 <!-- ----------------------------------feed 3 -->
+                 <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-photo">
+                                <img src="pen.jfif">
+                            </div>
+                            <div class="ingo">
+                                <h3>Wadle Wadle</h3>
+                                <small>Arkham, 13 MINUTES AGO</small>
+                            </div>
+                        </div>
+                        <span class="edit">
+                            <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                        </span>
+                    </div>
+
+                    <div class="photo">
+                        <img src="qwadle.jfif">
+                    </div>
+
+                    <div class="action-button">
+                        <div class="interaction-buttons">
+                            <span><ion-icon name="thumbs-up-outline"></ion-icon></span>
+                            <span><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
+                            <span><ion-icon name="share-social-outline"></ion-icon></span>
+                        </div>
+                        <div class="bookmark">
+                            <span><ion-icon name="bookmark-outline"></ion-icon></span>
+                        </div>
+                    </div>
+                    <div class="liked-by">
+                        <span><img src="laughing bat.jfif" alt=""></span>
+                        <span><img src="bruce.jfif" alt=""></span>
+                        <span><img src="clay.webp" alt=""></span>
+                        <p>liked by <b>Laughing</b> and <b>9000+ others</b></p>
+                    </div>
+
+                    <div class="caption">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span class="harsh-tag">#Arkham</span></p>
+                    </div>
+                    <div class="comments text-muted">View all 277 comments</div>
+                </div>
+                <!-- -----------------------------end of feed -->
+
+                 <!-- ----------------------------------feed 4 -->
+                 <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-photo">
+                                <img src="scarcrow.jfif">
+                            </div>
+                            <div class="ingo">
+                                <h3>Horror</h3>
+                                <small>Arkham, 13 MINUTES AGO</small>
+                            </div>
+                        </div>
+                        <span class="edit">
+                            <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                        </span>
+                    </div>
+
+                    <div class="photo">
+                        <img src="feed scare.jfif">
+                    </div>
+
+                    <div class="action-button">
+                        <div class="interaction-buttons">
+                            <span><ion-icon name="thumbs-up-outline"></ion-icon></span>
+                            <span><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
+                            <span><ion-icon name="share-social-outline"></ion-icon></span>
+                        </div>
+                        <div class="bookmark">
+                            <span><ion-icon name="bookmark-outline"></ion-icon></span>
+                        </div>
+                    </div>
+                    <div class="liked-by">
+                        <span><img src="laughing bat.jfif" alt=""></span>
+                        <span><img src="bruce.jfif" alt=""></span>
+                        <span><img src="clay.webp" alt=""></span>
+                        <p>liked by <b>Laughing</b> and <b>9000+ others</b></p>
+                    </div>
+
+                    <div class="caption">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span class="harsh-tag">#Arkham</span></p>
+                    </div>
+                    <div class="comments text-muted">View all 277 comments</div>
+                </div>
+                <!-- -----------------------------end of feed -->
+
+                 <!-- ----------------------------------feed 5 -->
+                 <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-photo">
+                                <img src="joker.jpg">
+                            </div>
+                            <div class="ingo">
+                                <h3>killer clown</h3>
+                                <small>Arkham, 13 MINUTES AGO</small>
+                            </div>
+                        </div>
+                        <span class="edit">
+                            <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                        </span>
+                    </div>
+
+                    <div class="photo" style="background: black;">
+                        <img src="horror.webp">
+                    </div>
+
+                    <div class="action-button">
+                        <div class="interaction-buttons">
+                            <span><ion-icon name="thumbs-up-outline"></ion-icon></span>
+                            <span><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
+                            <span><ion-icon name="share-social-outline"></ion-icon></span>
+                        </div>
+                        <div class="bookmark">
+                            <span><ion-icon name="bookmark-outline"></ion-icon></span>
+                        </div>
+                    </div>
+                    <div class="liked-by">
+                        <span><img src="laughing bat.jfif" alt=""></span>
+                        <span><img src="bruce.jfif" alt=""></span>
+                        <span><img src="clay.webp" alt=""></span>
+                        <p>liked by <b>Laughing</b> and <b>9000+ others</b></p>
+                    </div>
+
+                    <div class="caption">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span class="harsh-tag">#Arkham</span></p>
+                    </div>
+                    <div class="comments text-muted">View all 277 comments</div>
+                </div>
+                <!-- -----------------------------end of feed -->
+
+                 <!-- ----------------------------------feed 6 -->
+                 <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-photo">
+                                <img src="bane.jfif">
+                            </div>
+                            <div class="ingo">
+                                <h3>PUMPED</h3>
+                                <small>Arkham, 13 MINUTES AGO</small>
+                            </div>
+                        </div>
+                        <span class="edit">
+                            <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                        </span>
+                    </div>
+
+                    <div class="photo">
+                        <img src="bandeee.jfif">
+                    </div>
+
+                    <div class="action-button">
+                        <div class="interaction-buttons">
+                            <span><ion-icon name="thumbs-up-outline"></ion-icon></span>
+                            <span><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
+                            <span><ion-icon name="share-social-outline"></ion-icon></span>
+                        </div>
+                        <div class="bookmark">
+                            <span><ion-icon name="bookmark-outline"></ion-icon></span>
+                        </div>
+                    </div>
+                    <div class="liked-by">
+                        <span><img src="laughing bat.jfif" alt=""></span>
+                        <span><img src="bruce.jfif" alt=""></span>
+                        <span><img src="clay.webp" alt=""></span>
+                        <p>liked by <b>Laughing</b> and <b>9000+ others</b></p>
+                    </div>
+
+                    <div class="caption">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span class="harsh-tag">#Arkham</span></p>
+                    </div>
+                    <div class="comments text-muted">View all 277 comments</div>
+                </div>
+                <!-- -----------------------------end of feed -->
+
+            </div>
+            <!-- --------------------------------------end of feeds -->
+
+
+            <!-- middle -->
+            <div class="right">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4><ion-icon name="create-outline"></ion-icon>
+                    </div>
+                    <!-- ---------search bar -->
+                    <div class="search-bar">
+                        <ion-icon name="search-circle-outline"></ion-icon>
+                        <input type="search" placeholder="Search messages" id="message-search">
+                    </div>
+                    <!-- ---------------message category -->
+                <div class="category">
+                    <h6 class="active">Primary</h6>
+                    <h6>General</h6>
+                    <h6 class="message-requests">Requests(7)</h6>
+                </div>
+                <!-- -----------------message -->
+                <div class="message">
+                    <div class="profile-photo">
+                        <img src="laughing bat.jfif">
+                    </div>
+                    <div class="message-body">
+                        <h5>Laughing</h5>
+                        <p class="text-muted">Just woke up, Ready</p>
+                    </div>
+                </div>
+                </div>
+                <!-- --------------------end of message -->
+
+                <!-- ------------------------friend requests -->
+                <div class="friend-requests">
+                    <h4>Requests</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="clay.webp">
+                            </div>
+                        </div>
+                        <h5>Clay boy</h5>
+                        <p class="text-muted">
+                            8 mutual friends
+                        </p>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- right -->
+        </div>
+    </main>
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
